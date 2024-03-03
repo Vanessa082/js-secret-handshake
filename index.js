@@ -3,17 +3,17 @@ const displaySecretMessage = document.querySelector('.displaySecretMessage')
 const shakeHandsBtn = document.querySelector('.shakeHandsBtn')
 
 const secretHandshakeAction = [
-   'wink',
-   'double blink',
+  'wink',
+  'double blink',
   'close your eyes',
   'jump',
-   'Reverse the order of the operations in the secret handshake'
+  'Reverse the order of the operations in the secret handshake'
 ]
 
-shakeHandsBtn.addEventListener('click', () =>{
+shakeHandsBtn.addEventListener('click', () => {
 
 
-  const inputNumber = parseInt (collectNumber.value)
+  const inputNumber = parseInt(collectNumber.value)
 
   const secretHandshake = []
 
