@@ -7,13 +7,33 @@ body{
 }
 
 form{
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  background-color: #808080;
   padding: 8rem;
   border-radius: 10pc;
 }
 
+.collectNumber{
+  border: none;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 60vw;
+  max-width: 100%;
+  cursor: pointer;
+
+  &:focus{
+    outline: none;
+  }
+}
+
 .displaySecretMessage{
   height: 10vh;
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .shakeHands{
@@ -27,4 +47,5 @@ form{
   border: none;
   border-radius: 10px;
   width: 100%;
+  cursor: pointer;
 }
